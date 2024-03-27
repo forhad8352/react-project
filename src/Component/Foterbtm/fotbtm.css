@@ -1,0 +1,28 @@
+.footer-bottom{
+background-color: #1B1C31;
+padding-top: 19px;
+padding-bottom: 19px;
+background-color: #1b1c31;
+border-top: 2px solid #404444;
+        
+}
+.ftr_btm_left p, .ftr_btm_right p {
+font-size: 12px;
+line-height: 26px;
+color: #fff;
+}
+
+/*  */
+@media(max-width:575px){
+        .ftr_btm_left p, .ftr_btm_right p {
+                font-size: 10px;
+                line-height: 0px;
+        }
+}
+@media(min-width:576px) and (max-width:767px){
+        .ftr_btm_left p, .ftr_btm_right p {
+                font-size: 10px;
+                line-height: 0px;
+        }
+     
+}

@@ -1,0 +1,102 @@
+.balance-main{
+        padding-top: 93px;
+}
+.balance_inner_text h6{
+        font-size: 18px;
+        font-weight: 800;
+        color: #3734A9;
+        font-family: "Manrope";
+}
+.balance_inner_text h3{
+        font-size: 50px;
+        font-weight: 700;
+        line-height: 50px;
+        padding-top: 25px;
+}
+.balance_inner_text p{
+        font-size: 18px;
+        line-height: 30px;
+        font-weight: 400;
+        padding-top: 25px;
+}
+.balance_inner_btn{
+       padding-top: 10px;
+}
+.balance_inner_btn a{
+        font-size: 18px;
+        font-weight: 500;
+        color: black;
+        padding: 15px 40px;
+        border-radius: 10px;
+        transition: .4s;
+        border: 1px solid #000000;
+}
+.balance_inner_btn a:hover{
+        background-color: #3734A9;
+        color: #fff;
+}
+/*  */
+@media(max-width:575px){
+        .balance_inner_text h6{
+                text-align: center;
+        }
+        .balance_inner_text h3 {
+                font-size: 35px;
+                padding-top: 3px;
+                text-align: center;
+        }
+        .balance_inner_text p {
+                font-size: 16px;
+                padding-top: 5px;
+                text-align: center;
+        }
+        .balance_inner_btn a {
+                font-size: 16px;
+                padding: 9px 34px;
+        }
+        .balance_inner_btn{
+                text-align: center;
+         }
+     }
+     @media(min-width:576px) and (max-width:767px){
+        .balance_inner_text h6{
+                text-align: center;
+        }
+        .balance_inner_text h3 {
+                font-size: 35px;
+                padding-top: 3px;
+                text-align: center;
+        } 
+        .balance_inner_text p {
+                font-size: 16px;
+                padding-top: 5px;
+                text-align: center;
+        }
+        .balance_inner_btn{
+                text-align: center;
+         } 
+         .balance_inner_btn a {
+                font-size: 16px;
+                padding: 9px 34px;
+        }
+     }
+     
+     @media(min-width:768px) and (max-width:991px){
+        .balance_inner_text h6{
+                text-align: center;
+        }
+        .balance_inner_text h3 {
+	font-size: 35px;
+	padding-top: 3px;
+        text-align: center;
+}
+.balance_inner_text p {
+        font-size: 18px;
+        padding-top: 5px;
+        text-align: center;
+}
+
+.balance_inner_btn{
+        text-align: center;
+ }
+     }

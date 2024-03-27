@@ -1,0 +1,111 @@
+.client_text a{
+        font-size: 20px;
+        font-weight: 600;
+        font-family: Manrope,sans-serif!important;
+        padding-bottom: 14px;
+}
+.client_text h2{
+        font-size: 40px;
+        font-weight: 700;
+        padding-bottom: 40px;
+        font-family: Manrope,sans-serif!important;
+}
+.client_text_inner{
+        padding-left: 15px;
+}
+.client_text_inner h3{
+        font-size: 30px;
+        font-weight: 700;
+        font-family: Manrope,sans-serif!important;
+        line-height: 40px;
+}
+.client_text_inner p{
+        font-size: 18px;
+        font-weight: 400;
+        font-family: "Manrope",sans-serif!important;
+        line-height: 30px;
+        color:#757095;
+}
+.client_text_inner .second p{
+        font-size: 18px;
+        font-weight: 400;
+        font-family: "Manrope",sans-serif!important;
+        line-height: 30px;
+        padding-bottom: 10px; 
+        color: #757095;
+
+}
+.iconn{
+        color: #F9896B;
+}
+
+/*  */
+@media(max-width:575px){
+        .client_text a {
+                font-size: 18px;
+        }
+        .client_text {
+                text-align: center;
+        }
+        .client_text h2 {
+                font-size: 29px;
+                padding-bottom: 8px;
+        }
+        .client_text_inner h3 {
+                font-size: 26px;
+                text-align: center;
+        }
+        .client_text_inner p {
+                font-size: 16px;
+                font-weight: 300;
+                line-height: 25px;
+                text-align: center;
+        }
+        .client_text_inner .second p {
+                font-size: 16px;
+                font-weight: 300;
+                line-height: 25px;
+                text-align: center;
+        }
+       
+        .client_text_inner h6{
+                text-align: center;
+                font-size: 14px;
+        }
+        .client_text_inner h5{
+                text-align: center;
+                font-size: 16px;
+        }
+        .iconn{
+                text-align: center;
+                font-size: 14px;
+        }
+     }
+     @media(min-width:576px) and (max-width:767px){
+      .client_text {
+                text-align: center;
+        }
+        .client_text h2 {
+                font-size: 32px;
+                padding-bottom: 15px;   
+        }
+        .client_text_inner{
+                text-align: center;
+        }
+
+     }
+     
+     @media(min-width:768px) and (max-width:991px){
+.client_text {
+                text-align: center;
+        }
+        .client_text h2 {
+                font-size: 32px;
+                padding-bottom: 15px;   
+        }
+        .client_text_inner{
+                text-align: center;
+        }
+  
+     }
+

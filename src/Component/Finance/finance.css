@@ -1,0 +1,102 @@
+.finance_text h6{
+        font-size: 20px;
+        font-weight: 600;
+        font-family: "manrope";
+        padding-top: 60px;
+        color: #3734A9;
+}
+.finance_text h2{
+        font-size: 50px;
+        font-weight: 700;
+        font-family: "Manrope";
+        line-height: 79px;
+}
+
+.finance_colr{
+        background-color: #F3F7FA;
+}
+.finance_inner {
+        position: relative;
+        background-color: #fff;
+        border-radius: 20px;
+        margin: 39px 10px;
+        -webkit-border-radius: 20px;
+        -moz-border-radius: 20px;
+        -ms-border-radius: 20px;
+        -o-border-radius: 20px;
+    }
+.finance_inner_text {
+        padding: 36px 56px 61px 127px;
+    }
+.finance_inner_text h3{
+        font-size: 24px;
+        font-weight: 600;
+        font-family: "Manrope";
+}
+.finance_inner_text p{
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 30px;
+        font-family: "Manrope";
+}
+.circle {
+        position: absolute;
+        height: 58px;
+        width: 58px;
+        left: 30px;
+        top:40px;
+        background-color: #f7ecfd;
+        border-radius: 50%;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        -ms-border-radius: 50%;
+        -o-border-radius: 50%;
+    }
+
+
+
+/*  */
+@media(max-width:575px){
+        .finance_text h2 {
+                font-size: 32px;
+                line-height: 35px;
+                padding-bottom: 20px;
+        }
+        .finance_inner {
+                margin: 15px 10px;
+        }       
+   
+        
+
+}
+@media(min-width:576px) and (max-width:767px){
+       .finance_text h2 {
+                font-size: 32px;
+                line-height: 35px;
+                padding-bottom: 20px;
+        }
+        .finance_inner {
+                margin: 15px 10px;
+        }
+     
+}
+
+@media(min-width:768px) and (max-width:991px){
+        .finance_inner_text h3 {
+                font-size: 20px;
+        } 
+        .finance_inner_text p {
+                font-size: 15px;
+                line-height: 20px;
+        }
+        .finance_inner_text {
+                padding: 27px 48px 1px 96px;
+        }
+        .circle {
+                height: 40px;
+                width: 40px;
+                left: 29px;
+                top: 27px;
+        }
+
+}

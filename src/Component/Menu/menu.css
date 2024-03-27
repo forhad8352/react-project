@@ -1,0 +1,22 @@
+.menu-main{
+padding: 20px;
+}
+.navbar-nav a {
+        padding: 0 27px!important;
+        font-family: Manrope,sans-serif!important;
+    }
+.menu-bg{
+        font-size: 18px;
+        font-weight: 500;
+}
+.login-btn a{
+        padding: 17px 30px;
+        color: #000;
+        border-radius: 10px;
+        transition: .4s;
+        font-family: Manrope,sans-serif!important;
+}
+.login-btn a:hover{
+        background-color: #3734A9;
+        color: #fff;
+}
